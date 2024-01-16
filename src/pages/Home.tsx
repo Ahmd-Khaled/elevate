@@ -4,6 +4,7 @@ import Helmet from "../components/helmet/Helmet"
 import styles from "../styles/home.module.css"
 import Services from "./Services"
 import ContactUs from "../components/contactUs/ContactUs"
+import GetInTouch from "../components/getInTouch/GetInTouch"
 
 const Home = () => {
   return (
@@ -23,6 +24,11 @@ const Home = () => {
           </Row>
         </Container>
         <ContactUs />
+        <Container>
+          <Row>
+            <GetInTouch />
+          </Row>
+        </Container>
       </section>
     </Helmet>
   )
