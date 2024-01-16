@@ -154,7 +154,9 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className={styles.copyRights}>
+      </div>
+      <div className={styles.copyRights}>
+        <div className="mainContainer">
           <p>Copyright 2023 Elevate. All Rights Reserved.</p>
         </div>
       </div>
