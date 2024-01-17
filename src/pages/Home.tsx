@@ -6,6 +6,7 @@ import Services from "./Services"
 import ContactUs from "../components/contactUs/ContactUs"
 import GetInTouch from "../components/getInTouch/GetInTouch"
 import Blog from "../components/blog/Blog"
+import LatestProjects from "../components/latestProjects/LatestProjects"
 
 const Home = () => {
   return (
@@ -22,9 +23,15 @@ const Home = () => {
               <h3 className="section-title">Quality Servicing Opportunity</h3>
             </Col>
             <Services />
-            <Blog />
           </Row>
         </Container>
+        
+        <LatestProjects />       
+        <Container>
+          <Row>
+            <Blog />
+          </Row>
+        </Container>   
         <ContactUs />
         <Container>
           <Row>

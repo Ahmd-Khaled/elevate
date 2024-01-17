@@ -1,5 +1,10 @@
 .blog {
-    
+   margin-top: 120px; 
+}
+@media (max-width: 576px) {
+    .blog {
+        margin-top: 60px; 
+     }
 }
 .blog .container {
 
