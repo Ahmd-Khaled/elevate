@@ -13,7 +13,7 @@ const Blog = () => {
         <ul className={styles.blogList}>
           <li className={styles.blogItem}>
             <div className={styles.image}>
-              <img src="/src/assets/blog-01.jpg" alt="blog" />
+              <img src="/images/blog-01.jpg" alt="blog" />
               <span className={styles.note}>Building</span>
             </div>
             <div className={styles.content}>
@@ -32,7 +32,7 @@ const Blog = () => {
           </li>
           <li className={styles.blogItem}>
             <div className={styles.image}>
-              <img src="/src/assets/blog-02.jpg" alt="blog" />
+              <img src="/images/blog-02.jpg" alt="blog" />
               <span className={styles.note}>Building</span>
             </div>
             <div className={styles.content}>
@@ -51,7 +51,7 @@ const Blog = () => {
           </li>
           <li className={styles.blogItem}>
             <div className={styles.image}>
-              <img src="/src/assets/blog-03.jpg" alt="blog" />
+              <img src="/images/blog-03.jpg" alt="blog" />
               <span className={styles.note}>Building</span>
             </div>
             <div className={styles.content}>

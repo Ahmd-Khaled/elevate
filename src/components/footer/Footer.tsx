@@ -17,7 +17,7 @@ const footer = () => {
           <Row>
             <div className={styles.subscribe}>
               <div className={styles.logo}>
-                <img src="/src/assets/footer-logo.png" alt="logo" />
+                <img src="/images/footer-logo.png" alt="logo" />
               </div>
               <h2 className={styles.subscTitle}>
                 SUBSCRIBE OUR NEWSLETTER
@@ -130,7 +130,7 @@ const footer = () => {
                 <h3 className={styles.fTitle}>POPULAR POSTS</h3>
                 <div className={styles.post}>
                   <div className={styles.image}>
-                    <img src="/src/assets/footer-post-1.png" alt="post-img" />
+                    <img src="/images/footer-post-1.png" alt="post-img" />
                   </div>              
                   <div className={styles.postDetails}>
                     <div className={styles.time}>
@@ -146,7 +146,7 @@ const footer = () => {
                 </div>
                 <div className={styles.post}>
                   <div className={styles.image}>
-                    <img src="/src/assets/footer-post-2.png" alt="post-img" />
+                    <img src="/images/footer-post-2.png" alt="post-img" />
                   </div>
                   <div className={styles.postDetails}>
                     <div className={styles.time}>

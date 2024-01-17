@@ -61,7 +61,7 @@
 @media (min-width: 1200px) {
     .box:nth-child(1),
     .box:nth-child(3) {
-        background-image: url(/src/assets/contact-us-bg.jpg);
+        background-image: url(/images/contact-us-bg.jpg);
         background-position: center;
         background-size: cover;
         height: 100%;

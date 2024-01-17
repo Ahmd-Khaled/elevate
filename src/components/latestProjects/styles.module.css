@@ -2,7 +2,7 @@ section {
     padding: 0;
 }
 .latestProjects {
-    background-image: url(/src/assets/projects-bg.jpg);
+    background-image: url(/images/projects-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
