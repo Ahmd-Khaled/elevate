@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const Blog = () => {
   return (
-    <section className={styles.blog}>
+    <section className={styles.blog} id="blog">
       <div className={styles.container}>
         <div className={styles.top}>
           <p className={styles.smTitle}>LATEST BLOG</p>

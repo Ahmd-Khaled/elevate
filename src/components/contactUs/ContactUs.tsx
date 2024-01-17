@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 const ContactUs = () => {
   return (
-    <section className={styles.contactUs}>
+    <section className={styles.contactUs} id="contact">
         <div className={styles.container}>
             <div className={styles.box}>
                 <Ri24HoursFill className={styles.icon} />
