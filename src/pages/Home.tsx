@@ -5,6 +5,7 @@ import styles from "../styles/home.module.css"
 import Services from "./Services"
 import ContactUs from "../components/contactUs/ContactUs"
 import GetInTouch from "../components/getInTouch/GetInTouch"
+import Blog from "../components/blog/Blog"
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
               <h3 className="section-title">Quality Servicing Opportunity</h3>
             </Col>
             <Services />
+            <Blog />
           </Row>
         </Container>
         <ContactUs />
