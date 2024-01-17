@@ -48,18 +48,24 @@ const LatestProjects = () => {
 
 export default LatestProjects;
 // ---------------------------------------------------------
+// var process: NodeJS.Process
+// var env: NodeJS.ProcessEnv;
+
+
 type projectType = {
   img: string;
   num: number;
   text: string;
 };
 
+// : projectType
+
 export const ProjectItem = ({ img, num, text }: projectType) => {
   return (
     <li className={styles.projItem}>
       <div className={styles.itemWrapper}>
         <div className={styles.image}>
-          <img src={`../../assets/${img}`} alt="icon" />
+          <img src={`/public/images/${img}`} alt="icon" />
         </div>
         <h2 className={styles.projNum}>
           <span>{num}</span>
