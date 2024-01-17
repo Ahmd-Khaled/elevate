@@ -59,7 +59,7 @@ export const ProjectItem = ({ img, num, text }: projectType) => {
     <li className={styles.projItem}>
       <div className={styles.itemWrapper}>
         <div className={styles.image}>
-          <img src={`/src/assets/${img}`} alt="icon" />
+          <img src={`../../assets/${img}`} alt="icon" />
         </div>
         <h2 className={styles.projNum}>
           <span>{num}</span>
